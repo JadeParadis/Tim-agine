@@ -37,28 +37,46 @@ a {
 ================================================================================================================================================*/          
 header {
     color: #07020d;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    
 }
 
 header .wrapper {
-   background:#fff;
-   opacity: 0.8;
+   background-color: rgba(255, 255, 255, 0.8);
    border-radius: 5px;
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 10px 20px;
+   max-width: 800px;
 }
-.logo {
-
+header .logo {
+    font-size: 1.875rem;
+    color: inherit;
 }
    
+ .menu {
+    font-size: 1.875rem;
+ }
 
-
+ .hero {
+    height: 400px;
+    background: url(../images/photos/mountains.jpg) no-repeat center center/cover;
+    
+ }
 
 /*==============================================================================================================================================
                                                                 ÉLÉMENTS/TYPOGARPHIE
 ================================================================================================================================================*/        
-
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
 
 
 
