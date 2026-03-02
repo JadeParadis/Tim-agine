@@ -22,9 +22,9 @@ html {
     margin: 0 auto 0 auto;
 }                                                                                    
 body {
-font: 1.125/160% 'Frank Ruhl Libre', sans-serif; 
-background-color: #07020d;
-color: #fff;
+    font: 1.125/160% 'Frank Ruhl Libre', sans-serif; 
+    background-color: #07020d;
+    color: #fff;
 }
 
 a {
@@ -39,7 +39,19 @@ header {
     color: #07020d;
 }
 
+header .wrapper {
+   background:#fff;
+   opacity: 0.8;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+}
+.logo {
 
+}
+   
 
 
 
