@@ -101,6 +101,10 @@ button {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: #5db7de;
+    color:#07020d;
+}
 
 img {
     max-width: 100%;
@@ -171,7 +175,7 @@ img.zoom {
 
 .modal {
     position: fixed;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     top: 0px;
